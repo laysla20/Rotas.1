@@ -2,29 +2,65 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: url("assets/img-test2.jpg") no-repeat center center fixed;
+
 }
 
 header {
   background-color: #7c2828; 
-  color: white; 
+  color: rgb(233, 223, 223); 
   padding: 10px 20px; 
 }
 
 nav {
   display: flex; 
-  justify-content: space-around; 
+  justify-content: center; 
+  margin: 20px 0
 }
 
 nav a {
-  color: white; 
+  color: rgb(252, 252, 252); 
   text-decoration: none; 
   font-weight: bold; 
+
 }
 
-nav a:hover {
-  text-decoration: underline; 
-}
 
 h1{
-  color:blueviolet
+  color:rgb(252, 252, 252)
+}
+
+h2{
+  color:rgb(252, 252, 252)
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+  display: flex; /* Faz a lista ser horizontal */
+}
+
+li {
+  margin: 0 90px; /* Espaçamento entre os itens */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: rgb(252, 252, 252) /* Cor do texto do link */
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+p{
+  color: rgb(252, 252, 252)
 }

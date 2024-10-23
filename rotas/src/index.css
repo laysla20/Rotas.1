@@ -64,3 +64,12 @@ a:hover {
 p{
   color: rgb(252, 252, 252)
 }
+
+div {
+  background-color: rgba(157, 128, 180, 0.492); 
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
